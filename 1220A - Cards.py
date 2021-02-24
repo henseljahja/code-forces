@@ -1,0 +1,5 @@
+n = int(input())
+t = list(input())
+n = t.count('n')
+z = t.count('z')
+print('1 '*n,'0 '*z)
